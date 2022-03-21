@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import PokemonPage from './components/PokemonPage'
+import './App.css'
 
 function App() {
   return (

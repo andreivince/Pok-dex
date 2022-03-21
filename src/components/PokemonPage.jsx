@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Pokemon from './Pokemon'
 import axios from 'axios'
 import PokemonLayout from "./PokemonLayout"
-
+import "./PokemonPage.css"
 const PokemonPage = () => {
     const [pokemon, setPokemon] = useState([])
     const [currentPage, setCurrentPage] = useState("https://pokeapi.co/api/v2/pokemon")
@@ -37,7 +37,7 @@ const PokemonPage = () => {
     if (loading) return "Loading..."
 
     return ( 
-        <div>
+        <div className='containerr'>
         <Pokemon pokemon={pokemon} />
         <PokemonLayout 
         PrevPagee={prevPage ? PrevPagee : null}
