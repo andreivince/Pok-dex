@@ -6,7 +6,7 @@ const Header = () => {
     return ( 
         <div>
             <header>
-            <h1 className='titulo'> <CgPokemon/> Pokédex</h1>
+            <h1 className='titulo'> <CgPokemon/> Name of All Pokemon's<CgPokemon/></h1>/h1>
             </header>
         </div>
      );

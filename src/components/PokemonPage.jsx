@@ -3,6 +3,7 @@ import Pokemon from './Pokemon'
 import axios from 'axios'
 import PokemonLayout from "./PokemonLayout"
 import "./PokemonPage.css"
+
 const PokemonPage = () => {
     const [pokemon, setPokemon] = useState([])
     const [currentPage, setCurrentPage] = useState("https://pokeapi.co/api/v2/pokemon")

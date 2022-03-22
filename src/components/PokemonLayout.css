@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+
+}
+
+.back {
+    width: 100px;
+    height: 50px;
+    background-color: #FE4A49;
+
+
+    margin-right: 10px;
+    font-family: 'Roboto Mono', monospace;
+    color: #eee;
+}
+
+.top {
+    width: 100px;
+    height: 50px;
+    background-color: #FE4A49;
+    font-family: 'Roboto Mono', monospace;
+    color: #eee;
+}
